@@ -1,13 +1,83 @@
-.noticia1{
-  width: 30%;
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap')  ;
+
+
+h1.navbar-brand {
+font-family: 'Kavivanar', cursive !important;
+
+
+}
+
+.noticia1 {
+  width: 100%;
   display: inline-block;
+  < !-- propiedad para mis bloques es seccion lookbook -->
+}
+
+main.container section.row h2.col-12 {
+  background-color: white;
+  font-size: 30px;
+  font-family: sans-serif;
+  < !-- titulo principal de mi body -->
+}
+
+body {
+  background-color: #ecf4f3;
+  font-family: 'Oxygen', sans-serif;
+  < !-- propiedades de mi body -->
+}
+
+main.container section.row h3.col-12 {
+  font-style: italic;
+  font-size: 25px;
+  < !-- subtitulos de lookbook seccion noticias -->
+}
+
+
+main.container section.row p.col-12 {
+  font-family: 'Oxygen', sans-serif;
+  < !-- parrafo de novedades en mi body -->
+}
+
+header h1.navbar-brand {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 40px;
+}
+
+main.container section.row div.card-body {
+  background-color: #006a71;
+}
+
+header nav {
+background-color: #68b0ab;
+
 
 }
 
 
 
-main.container section.row h2.col-12 {
+h2.p-3 {
 
-background-color: red;
+background-color: #006a71 !important;
+
+
+
+}
+
+footer {
+
+  text-align: center;
+  background-color: #ff7e67 !important;
+
+}
+
+#gracias {
+background-color: transparent;
+
+}
+
+
+#logo {
+  width: 100px !important;
+  border-radius: 50% !important;
 
 }

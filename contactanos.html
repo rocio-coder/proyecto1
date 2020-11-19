@@ -7,6 +7,7 @@
 
   <link rel="stylesheet" href="boostrap/bootstrap.min.css">
   <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="img">
   <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 
 
@@ -18,8 +19,7 @@
 
   <!-- CONTROL+ ALT+ B  https://www.w3schools.com/tags/tag_figure.asp  Users/ro/Desktop/programacion/savada35.jpg-->
 
-  <!-- https://www.w3schools.com/html/html_images.asp-
-  <h1 class="navbar-brand"> Estrato</h1>-->
+  <!-- https://www.w3schools.com/html/html_images.asp-->
 
 
   <!-- dentro de seccion lookbook: cambiar el nombre de las clases de noticia + modificar el width
@@ -33,14 +33,14 @@
 
     <nav class="navbar navbar-expand-lg navbar-light">
       <figure>
-        <img id="logo" src="img/plant.png" alt="logo">
+        <img id="logo" src="img/plant.png" alt="logoeditado">
       </figure>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
@@ -49,7 +49,7 @@
           <li class="nav-item">
             <a class="nav-link" href="articulos.html">Articulos</a>
           </li>
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="contactanos.html">Contactanos</a>
           </li>
         </ul>
@@ -66,57 +66,66 @@
 
     <section class="row">
 
-      <h2 class="col-12 p-3">Nuestra Historia</h2>
-      <p class="col-12"> Somos una ONG que promueve la inclusion de la comunidad a traves de actividades rurales, con cooperacion de los vecinos y barrios aledaños, a su vez gestamos un proyecto de huerta comunitaria, donde tambien tenemos un jardin comunitario y una escuela circense.</p>
+      <h2 class="col-12 p-3">Contacto</h2>
+      <p class="col-12">Si tenes una duda podes dejarnos tu comentario!</p>
 
 
-      <figure class="card col-lg-4">
-        <img src="img/egresados.jpg" class="card-img-top" alt="">
-        <div class="card-body">
-          <p class="card-text"> Jardin Comunitario.</p>
+      <form action="gracias.html" method="get" class="col-lg-6 col-12">
+        <div class="form-group">
+          <label for="email" class="col-12">Email</label>
+          <input type="email" class="form-control col-12" id="email" placeholder="carlos@live.com">
         </div>
-      </figure>
-      <figure class="card col-lg-4 ">
-        <img src="img/tomates.jpg" class="card-img-top" alt="">
-        <div class="card-body">
-          <p class="card-text">Huerta Comunitaria.</p>
+        <div class="form-group">
+
+          <label for="nombre" class="col-12">Nombre</label>
+
+          <input type="text" class="form-control col-12" id="nombre" placeholder="Carlos Suarez">
+
         </div>
-      </figure>
-      <figure class="card col-lg-4">
-        <img src="img/yoga.jpg" class="card-img-top" alt="">
-        <div class="card-body">
-          <p class="card-text"> Yoga/p>
+
+        <div class="form-group">
+
+          <label for="comentario" class="col-12">Comentario</label>
+
+          <textarea class="form-control col-12" id="comentario"></textarea>
+
         </div>
-      </figure>
-      <figure class="card col-lg-4">
-        <img src="img/tela3.jpg" class="card-img-top" alt="">
-        <div class="card-body">
-          <p class="card-text"> Acrobacia.</p>
-        </div>
-      </figure>
-      <figure class="card col-lg-4">
-        <img src="img/tambor.jpg" class="card-img-top" alt="">
-        <div class="card-body">
-          <p class="card-text">Murga.</p>
-        </div>
-      </figure>
-      <figure class="card col-lg-4">
-        <img src="img/profetela.jpg" class="card-img-top" alt="">
-        <div class="card-body">
-          <p class="card-text"> Escuela de circo.</p>
-        </div>
-      </figure>
+
+
+        <button type="submit" class="btn btn-outline-dark">Enviar</button>
+
+
+      </form>
+
+
+
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13091.571587058506!2d-58.2302578!3d-34.8840357!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xadd9301eac57fb45!2sHijos%20del%20Campo!5e0!3m2!1ses-419!2sbr!4v1605728312156!5m2!1ses-419!2sbr"
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+
 
 
     </section>
   </main>
 
-  <footer class="col-12 p-3">
-    <p> Direccion: Calle 1620, Ingeniero J. Allan, Provincia de Buenos Aires, Argentina </p>
+
+
+
+
+
+  <footer class="col-12 p-3 mt-5">
+    <p> Direccion: Calle 1620, Ingeniero J. Allan, Provincia de Buenos Aires, Argentina</p>
+
     <p> Telefono: 4805-0851 </p>
-    <p> Hijxs Del Campo </p>
+
+    <p> Hijxs del campo </p>
+
 
   </footer>
+
 
   <script src="boostrap/jquery.min.js" charset="utf-8"></script>
   <script src="boostrap/bootstrap.bundle.min.js" charset="utf-8"></script>
